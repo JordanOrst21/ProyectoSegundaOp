@@ -1,0 +1,12 @@
+conduit:
+  application:
+    cors:
+      allowOrigin: "*"
+      allowHeaders:
+        - Content-Type
+        - Authorization
+      allowMethods:
+        - GET
+        - POST
+        - PUT
+        - DELETE
